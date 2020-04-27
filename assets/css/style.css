@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.container{
+	max-width: 1170px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo{
+	height: 70px;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: #09ab9e;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left{
+	float: left;
+}
+
+.header-right{
+	float: right;
+	margin-right: -30px;
+	margin-top: 5px;
+		
+}
+
+.header-right a{
+	line-height: 50px;
+	float: left;
+	padding: 0 25px;
+	color: white;
+	display: block;
+	transition: all 0.7s;
+}
+
+.header-right a:hover {
+  background-color: #adaaaa;
+  margin-top: 5px;
+  height: 60px;
+}
+
+.menu-icon{
+	color: white;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+	display: none;
+}
