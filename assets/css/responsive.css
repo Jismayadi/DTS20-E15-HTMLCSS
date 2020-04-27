@@ -88,4 +88,15 @@
 	.team-wrapper .team-container .team-list {
 		width: 100%;
 	}
+
+	.team-wrapper .team-container img {
+		height: 200px;
+	}
+
+	.team-wrapper .team-contact > div {
+		width: 200px;
+		text-align: center;
+		font-size: 18px;
+	}
+	
 }
