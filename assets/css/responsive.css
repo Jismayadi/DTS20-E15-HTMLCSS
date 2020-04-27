@@ -1,6 +1,55 @@
 /*TABLET*/
 @media all and (max-width: 1000px){
+	.top-wrapper {
+		background-size: initial;
+	  }
+	
+	  .top-container {
+		padding: 130px 30px;
+		padding-right: 350px;
+	  }
+	
+	  .top-title h1 {
+		font-size: 36px;
+		line-height: 28px;
+	  }
+	
+	  .top-content {
+		font-size: 16px;
+		line-height: 28px;
+	  }
+	
+	  #title {
+		font-size: 20px;
+	  }
 
+	  .team-wrapper {
+		margin-top: 20px;
+	}
+	.team-wrapper .team-container .team-list {
+		width: 50%;
+		flex: none;
+		padding: 20px;
+	}
+	
+	.team-wrapper .team-container .team-card {
+		text-align: center;
+		padding: 40px;
+	}
+	
+	.team-wrapper .team-container img {
+		max-width: 50%;
+	}
+	
+	.learn-wrapper {
+		margin-top: 50px !important;
+	}
+	
+	.learn-wrapper .learn-container .learn-list {
+		width: 100%;
+		flex: none;
+		padding: 20px;
+	}
 }
 
 
@@ -11,6 +60,32 @@
 	}
 
 	.menu-icon{
-		display: block;
+		display: block !important;
+	}
+
+	.top-wrapper {
+		background: none;
+	  }
+
+	  .top-container {
+		padding: 210px 30px;
+	  }
+	
+	  .top-title h2 {
+		font-size: 36px;
+		line-height: 28px;
+	  }
+	
+	  .top-content {
+		font-size: 16px;
+		line-height: 28px;
+	  }
+	
+	  .team-wrapper {
+		margin-top: 50px !important;
+	}
+	
+	.team-wrapper .team-container .team-list {
+		width: 100%;
 	}
 }
